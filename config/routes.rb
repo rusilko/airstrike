@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
   get 'my-name-is/' => 'my_name_is#index'
   get 'list/' => 'list#index'
+  get 'airstrike' => 'airstrike#index'
 
   namespace :api do
     resources :tasks

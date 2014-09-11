@@ -1,0 +1,10 @@
+<div ng-app='app'>
+  <h1>AirStrike!</h1>
+  <div ng-controller='airstrikeCtrl'>
+    Status: {{ status() }}
+    <form ng-submit="fire(shot)">
+      <input ng-model='shot' type=""/>
+      <button>Fire!</button>
+    </form>
+  </div>
+</div>
